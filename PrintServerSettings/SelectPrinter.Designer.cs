@@ -82,6 +82,7 @@
             button3.TabIndex = 6;
             button3.Text = "Install Service";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -91,6 +92,7 @@
             button4.TabIndex = 7;
             button4.Text = "Remove Service";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // SelectPrinter
             // 
